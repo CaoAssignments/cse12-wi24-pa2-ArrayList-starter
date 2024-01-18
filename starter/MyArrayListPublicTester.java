@@ -306,7 +306,7 @@ public class MyArrayListPublicTester {
 
     /**
      * Aims to test the rotate method when 
-     * input index is in the range [0, size - 1]
+     * input index is in the range [0, length - 1]
      */
     @Test
     void testRotateSingle() {
@@ -318,7 +318,7 @@ public class MyArrayListPublicTester {
 
     /**
      * Aims to test the rotate method when 
-     * input index is in the range [0, size - 1]
+     * input index is in the range [0, length - 1]
      */
     @Test
     void testRotateFullList() {
@@ -337,7 +337,7 @@ public class MyArrayListPublicTester {
 
     /**
      * Aims to test the rotate method when 
-     * input index is in the range [0, size - 1]
+     * input index is in the range [0, length - 1]
      */
     @Test
     void testRotatePartialNullList() {
@@ -360,7 +360,7 @@ public class MyArrayListPublicTester {
 	
     /**
      * Aims to test the find method when 
-     * input element exists in the list with index in the range [0, size - 1]
+     * input element exists in the list with index in the range [0, length - 1]
      */
     @Test
     public void testFind(){
