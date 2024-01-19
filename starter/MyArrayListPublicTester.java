@@ -246,9 +246,9 @@ public class MyArrayListPublicTester {
                 new Integer[]{1, 2, 3, null, null, null}, listWithInt.values);
         assertEquals("The size should still be the same", 3, listWithInt.length);
 
-        listWithInt.expandCapacity(9);
+        listWithInt.expandCapacity(12);
         assertArrayEquals("Second capacity expand", 
-                new Integer[]{1, 2, 3, null, null, null, null, null, null}, 
+                new Integer[]{1, 2, 3, null, null, null, null, null, null, null, null, null}, 
                 listWithInt.values);
         assertEquals("The size should still be the same", 3, listWithInt.length);
     }
@@ -270,7 +270,7 @@ public class MyArrayListPublicTester {
 
         list.expandCapacity(6);
         assertArrayEquals("Capacity should be updated again", 
-                new Integer[]{null, null, null, null, null, null, null, null},
+                new Integer[]{null, null, null, null, null, null, null, null, null, null},
                 list.values);
         assertEquals("The size should still be the same", origSize, list.length);
     }
