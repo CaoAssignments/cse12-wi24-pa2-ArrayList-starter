@@ -309,7 +309,7 @@ public class MyArrayListPublicTester {
      * input index is in the range [0, length - 1]
      */
     @Test
-    void testRotateSingle() {
+    public void testRotateSingle() {
         listNonEmpty.rotate(0);
         assertArrayEquals("check data", new Integer[]{1, null, null}, listNonEmpty.values);
         assertEquals("size should not get incremented", 1, listNonEmpty.length);
@@ -321,7 +321,7 @@ public class MyArrayListPublicTester {
      * input index is in the range [0, length - 1]
      */
     @Test
-    void testRotateFullList() {
+    public void testRotateFullList() {
         listWithInt.rotate(0);
         assertArrayEquals("check data", new Integer[]{1, 2, 3}, listWithInt.values);
         assertEquals("size should not get incremented", 3, listWithInt.length);
@@ -340,7 +340,7 @@ public class MyArrayListPublicTester {
      * input index is in the range [0, length - 1]
      */
     @Test
-    void testRotatePartialNullList() {
+    public void testRotatePartialNullList() {
         Integer[] arrPartialNull = new Integer[]{null, 1, 2, null, null, 3, null, null};
         MyArrayList<Integer> listPartialNull = new MyArrayList<>(arrPartialNull);
         listPartialNull.length = 6;
