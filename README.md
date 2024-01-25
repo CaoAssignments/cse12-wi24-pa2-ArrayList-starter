@@ -144,7 +144,7 @@ We provide two test files:
    <td>Test if an element is inserted at the correct location and if length and capacity are updated appropriately to account for the newly inserted element.
 <ul>
 
-<li>Insert at index in the range [0, length - 1]
+<li>Insert at index in the range [0, length]
 </li>
 </ul>
    </td>
