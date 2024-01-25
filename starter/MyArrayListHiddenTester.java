@@ -137,7 +137,7 @@ public class MyArrayListHiddenTester {
 
     /**
      * Aims to test the expandCapacity method when 
-     * requiredCapacity is greater than current capacity+3 and default capacity
+     * requiredCapacity is greater than current capacity * 2 and default capacity
      */
     @Test
     public void testExpandCapacityLarge(){
